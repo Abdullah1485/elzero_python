@@ -38,3 +38,149 @@ a , b, c = 1, 2
 print(a)
 print(b)
 print(c)
+
+
+#some data 
+#type
+# intger>int = 2/5/100/-50 ,....
+#floating point number > 1.2/0.9/1.5/5.23/....
+#string> zantaty, computer science , egypet ,....
+#lists > ([ahmed , zanaty , omar , saif ]) / ([12 ,85 , 2.28 ])
+#tuple>((ahmed , number , 45 , 2.5))
+#dictionary > ({ahmed}: 2 , {zanaty}: 1 ) ,....
+#boolean > (2==4) False / (2==2) Ture 
+
+# print(type(25))
+
+#print(type(20.25))
+
+#print(type("zanaty"))
+
+#print(type( [2,3,5,"abdo"] ))
+
+#p#rint(type((1,5,6)))
+
+#pr#int(type({"ahmed":2 ,"zanaty" : 1}))
+
+#pri#nt(type(2==9)) 
+
+#print(type(2==2))
+
+
+# Escape sequences charcters
+# \b => back space
+# \newline => escape backslash and newline
+# \\ =>  escap back slash
+# \' => escape single quoate
+#\"" => escape double + quoate
+# \n => line feed 
+# \r => carrige reutern
+#\t => Horizontel tab 
+# \x => charcter hex value 
+#----------------------------------------------------------#
+
+# \b => back space
+print("hello\bworld")
+# \newline => escape backslash and newline 
+print(" i \
+love \
+python")
+# \\ =>  escap back slash
+print("hello i love python \\")  
+# \' => escape single quoate 
+print('i love back slash \' test \' ')
+#\"" => escape double + quoate
+print('i love back slash \' test \' ')
+# \n => line feed 
+print("i love python\nilove my mather ")
+# \r => carrige reutern
+print("123456\rabdo")
+#\t => Horizontel tab 
+print("abdullah\tzanaty")
+# \x => charcter hex value 
+print("\x4f")
+
+#-----------------------#
+#hex values 
+#	42	66	-
+#C	43	67	-
+#D	44	68	-
+#E	45	69	-
+#F	46	70	-
+#G	47	71	-
+#H	48	72	-
+#I	49	73	-
+#J	4A	74	-
+#K	4B	75	-
+#L	4C	76	-
+#M	4D	77	-
+#N	4E	78	-
+#O	4F	79	-
+#P	50	80	-
+#Q	51	81	-
+#R	52	82	-
+#S	53	83	-
+#T	54	84	-
+#U	55	85	-
+#V	56	86	-
+#W	57	87	-
+#X	58	88	-
+#Y	59	89	-
+#Z	5A	90	-
+#[	5B	91	-
+#\	5C	92	-
+#]	5D	93	-
+#^	5E	94	-
+#_	5F	95	-
+#`	60	96	-
+#a	61	97	-
+#b	62	98	-
+#c	63	99	-
+#d	64	100	-
+#e	65	101	-
+#f	66	102	-
+#g	67	103	-
+#h	68	104	-
+#i	69	105	-
+#J	6A	106	-
+#k	6B	107	-
+#l	6C	108	-
+#m	6D	109	-
+#n	6E	110	-
+#o	6F	111	-
+#p	70	112	-
+#q	71	113	-
+#r	72	114	-
+#s	73	115	-
+#t	74	116	-
+#u	75	117	-# -------------------
+# -- Concatenation --
+# -------------------
+
+msg = "I Love"
+lang = "Python"
+print(msg + " " + lang)
+
+full = msg + " " + lang
+print(full)
+
+a = "First \
+Second \
+Third"
+
+b = "A \
+B \
+C"
+
+print(a + "\n" + b)
+
+print("Hello " + 1)  # Error
+#v	76	118	-
+#w	77	119	-
+#x	78	120	-
+#y	79	121	-
+#z	7A	122
+
+
+
+
