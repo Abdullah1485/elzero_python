@@ -1,0 +1,40 @@
+#_ _ _varibles_ _ _
+# the varible is lead us to data , but it is not a data 
+#syntax=[varible name][assegnmemt operator][valu]
+#can start with [a,z][A,Z][underscore]
+#can not start with numbers or special charcter
+#can include numbers and underscore 
+#can not include special charcter
+#name is not like name [case sensitive]
+#------------------------------------
+#source code : orignal code you write it in computer
+#translation : converting source code into machine language
+#compilation : period app take execluting commands
+#run-time : codectranslated on the fly during execution 
+#------------------------------------------
+
+#name = "abdullah zanaty" #single word => normal
+#myname = "abdullah zanaty" #two words => camelcase
+#my_name = "abdullah zanaty" #two words via _ => snake_case
+
+
+#name = "abdullah zanaty is an software engineer "
+
+#print(name)
+
+
+#Here is a list of the Python keywords.  Enter any keyword to get more help.
+
+#False               class               from                or
+#None                continue            global              pass
+#True                def                 if                  raise
+#and                 del                 import              return
+#as                  elif                in                  try
+#assert              else                is                  while
+#async               except              lambda              with
+#await               finally             nonlocal            yield
+#break               for                 not
+a , b, c = 1, 2 
+print(a)
+print(b)
+print(c)
